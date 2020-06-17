@@ -10,6 +10,4 @@
 <p>4-docker-compose up .</p>
 * show on http://urlserver.com:5000
 
-<p>roadmap of project : server.js > app.js > routes > middleware > controllers > models </p>
-
 
