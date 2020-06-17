@@ -1,0 +1,24 @@
+version: '3'
+services:
+  nodejs_starter:
+    container_name: nodejs_starter
+    build: .
+    ports:
+      - '5000:5000'
+    links:
+      - mongo
+      - redis
+
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+
+  redis:
+    container_name: redis
+    image: 'redis:alpine'
+    ports:
+      - '6379:6379'
+    command: redis-server
+
