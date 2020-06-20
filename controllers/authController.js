@@ -12,6 +12,7 @@ const signToken = id => {
   });
 };
 
+
 const createSendToken = (user, statusCode, req, res) => {
   const token = signToken(user._id);
   res.cookie('token', token, {

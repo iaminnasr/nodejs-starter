@@ -99,7 +99,6 @@ app.use((req, res, next) => {
 
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/upload', uploadRouter);
-ap;
 
 // app.use((req,res,next)=>{
 //   res.sendFile(path.resolve(__dirname,"public","index.html"))
