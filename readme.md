@@ -1,4 +1,4 @@
-<h1>starter node Application</h1>
+<h1>starter nodejs Application</h1>
 
 <h2>Built using modern technologies: node.js, express, mongoDB, mongoose,redis </h2>
 <h3>deploy: npm start</h3>
