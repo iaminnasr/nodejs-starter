@@ -9,7 +9,7 @@
 <p>3-<code> docker-compose up</code></p>
 * show on http://urlserver.com:5000
 
-## tip :
+## tips :
 1-for start this project in your server with docker pre required to change in the config.env from DATABASE_LOCAL=mongodb://localhost:27017/nodejs_starter to DATABASE_LOCAL=mongodb://mongo:27017/nodejs_starter
 
 2-if you want use redis in your project ,you need to install the redis in your server vs machin and uncomment the line of 3 in the file of server.js 
