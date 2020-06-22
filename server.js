@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-require('./services/cache');
+// require('./services/cache');
 
 process.on('uncaughtException', err => {
   console.log('UNCAUGHT EXCEPTION! 💥 Shutting down...');
@@ -28,11 +28,8 @@ mongoose
     server = app.listen(port, () => {
       console.log(`App running on port ${port}...`);
     });
-
   })
   .catch(err => console.log(err));
-
-
 
 process.on('unhandledRejection', err => {
   console.log('UNHANDLED REJECTION! 💥 Shutting down...');
